@@ -17,11 +17,11 @@ Open the app on your iOS device. Scroll to the desired conversion section (e.g.,
 
 # Technologies Used
 
-SwiftUI: For building the user interface.
+**SwiftUI**: For building the user interface.
 
-State Management: SwiftUI's @State property wrapper is used to handle real-time updates to user input and converted values.
+**State Management**: SwiftUI's @State property wrapper is used to handle real-time updates to user input and converted values.
 
-Reusable Components: Custom ConversionSection component for clean and modular code design.
+**Reusable Components**: Custom ConversionSection component for clean and modular code design.
 
 # Installation
 
@@ -31,11 +31,11 @@ Open the project in Xcode (version 14.0 or higher recommended).
 
 Build and run the project on a simulator or a physical device running iOS 16 or later.
 
-Project Structure
+# Project Structure
 
-ContentView.swift: The main view of the app, which organizes and displays all conversion sections.
+**ContentView.swift**: The main view of the app, which organizes and displays all conversion sections.
 
-ConversionSection: A reusable SwiftUI component for individual conversion sections.
+**ConversionSection**: A reusable SwiftUI component for individual conversion sections.
 
 # Future Enhancements
 
