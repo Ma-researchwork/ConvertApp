@@ -14,6 +14,8 @@ struct ContentView: View {
     @State private var centimetersValue: String = ""
     @State private var metersValue: String = ""
     @State private var feetValue: String = ""
+    @State private var poundsValue: String = ""
+    @State private var kilogramsValue: String = ""
 
     var body: some View {
         ScrollView {
@@ -96,6 +98,32 @@ struct ContentView: View {
                         if let feet = Double(feetValue) {
                             let meters = feet / 3.28084
                             return String(format: "%.2f m", meters)
+                        }
+                        return "Invalid input"
+                    }
+                )
+                
+                // Pounds to Kilograms
+                ConversionSection(
+                    title: "Pounds to Kilograms",
+                    inputValue: $poundsValue,
+                    convertAction: {
+                        if let pounds = Double(poundsValue) {
+                            let kilograms = pounds * 0.453592
+                            return String(format: "%.2f kg", kilograms)
+                        }
+                        return "Invalid input"
+                    }
+                )
+                
+                // Kilograms to Pounds
+                ConversionSection(
+                    title: "Kilograms to Pounds",
+                    inputValue: $kilogramsValue,
+                    convertAction: {
+                        if let kilograms = Double(kilogramsValue) {
+                            let pounds = kilograms / 0.453592
+                            return String(format: "%.2f lb", pounds)
                         }
                         return "Invalid input"
                     }
