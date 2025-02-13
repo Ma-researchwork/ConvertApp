@@ -41,4 +41,4 @@ Build and run the project on a simulator or a physical device running iOS 16 or 
 
 # Future Enhancements
 
-Add support for additional unit conversions (e.g., weight, volume, speed). Integrate a history log to store past conversions for user reference. Include localization for multiple languages.
+Add support for additional unit conversions (e.g., volume, speed). Integrate a history log to store past conversions for user reference. Include localization for multiple languages.
