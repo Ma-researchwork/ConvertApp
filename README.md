@@ -4,11 +4,6 @@
 
 ConvertApp is a simple and user-friendly iOS application built with SwiftUI that allows users to perform various unit conversions with ease. The app provides individual sections for each conversion type, ensuring a clean and intuitive interface.
 
-# Features
-
-Temperature Conversion, Length Conversion.
-
-
 # Interactive UI
 
 Each conversion has its own dedicated section with an input field, conversion button, and real-time output. Scrollable interface for easy navigation between different conversions.
