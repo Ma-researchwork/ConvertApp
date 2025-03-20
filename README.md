@@ -10,7 +10,7 @@ Each conversion has its own dedicated section with an input field, conversion bu
 
 # How to Use
 
-Open the app on your iOS device. Scroll to the desired conversion section (e.g., "Fahrenheit to Celsius"). Enter the value you want to convert in the input field. View the converted value displayed below the input. Repeat for other conversions as needed.
+Open the app on your iOS device. Choose desired conversion section (e.g., ""). Enter the value you want to convert in the input field. View the converted value displayed below the input. Repeat for other conversions as needed.
 
 # Technologies Used
 
